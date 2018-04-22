@@ -10,6 +10,7 @@
   </span>
   <span class="author" itemprop="copyrightHolder">{{ theme.footer.copyright || config.author }}</span>
    个人专属 | Style:变异のNexT | 
+   <span>Hosted by <a href="https://pages.github.com" >GitHub Pages</a></span> | 
    <span class="with-love">
     <i class="fa fa-child"></i>
   <span>
@@ -37,7 +38,7 @@
 </div>
 
 
-<!-- {% if theme.footer.powered %}
+ {% if theme.footer.powered %}
   <div class="powered-by">{#
   #}{{ __('footer.powered', '<a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a>') }}{#
 #}</div>
@@ -45,9 +46,9 @@
 
 {% if theme.footer.powered and theme.footer.theme.enable %}
   <span class="post-meta-divider">|</span>
-{% endif %} -->
+{% endif %} 
 
-<!-- {% if theme.footer.theme.enable %}
+ {% if theme.footer.theme.enable %}
   <div class="theme-info">{#
   #}{{ __('footer.theme') }} &mdash; {#
   #}<a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">{#
@@ -60,6 +61,6 @@
   <div class="footer-custom">{#
   #}{{ theme.footer.custom_text }}{#
 #}</div>
-{% endif %} -->
+{% endif %} 
 
 

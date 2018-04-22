@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # 博客标题
-title: 罗十八
+title: 世界の某个角落
 #副标题
-subtitle: 世界的某个角落
+subtitle:
 #简介
 description: 童话说雨后会有一道彩虹，却不曾说过它也会转瞬成空。
 #博客作者
@@ -31,7 +31,7 @@ timezone:
 url: http://yoursite.com
 root: /
 #博客链接格式
-permalink: :title.html
+permalink: post/:title.html
 permalink_defaults:
 
 # Directory
@@ -95,7 +95,9 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/hilence/hilence.github.io.git 
+  repo: 
+        github: git@github.com:hilence/hilence.github.io.git
+        coding: git@git.coding.net:hilence/hilence.git
   branch: master
 
 # Extensions
