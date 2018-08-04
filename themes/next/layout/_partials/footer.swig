@@ -10,7 +10,7 @@
   </span>
   <span class="author" itemprop="copyrightHolder">{{ theme.footer.copyright || config.author }}</span>
    个人专属 | Style:变异のNexT | 
-   <span>Hosted by <a href="https://pages.github.com" >GitHub Pages</a></span> | 
+   <span>Hosted by <a href="https://pages.coding.me" >Coding Pages</a></span> | 
    <span class="with-love">
     <i class="fa fa-child"></i>
   <span>
