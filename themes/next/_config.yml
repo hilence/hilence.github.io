@@ -95,7 +95,7 @@ menu:
   home: / || home #首页
   archives: /archives/ || archive #归档
   tags: /tags/ || tags #标签
-  friends: /friends/ || address-book
+  #friends: /friends/ || address-book
   project: /project || folder-open
   #freemail: /mail || envelope
   about: /about/ || user
