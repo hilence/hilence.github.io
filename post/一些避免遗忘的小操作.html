@@ -157,7 +157,7 @@ else                                       (*y  .05
 <meta property="og:site_name" content="世界の某个角落">
 <meta property="og:description" content="摘要：">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-04-30T16:15:39.353Z">
+<meta property="og:updated_time" content="2019-04-30T16:22:38.833Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="一些避免遗忘的小操作">
 <meta name="twitter:description" content="摘要：">
@@ -425,9 +425,8 @@ else                                       (*y  .05
 <p>2.修改以下文件，路径为:/www/server/panel/class ，在该路径下找到common.py并编辑，在第164行，即最后一行，添加如下内容:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">data = &#123;\’status\’ : True,\’msg\’ : &#123;\’endtime\’ : 32503651199 &#125;&#125;</span><br></pre></td></tr></table></figure></p>
 <p>3.打开以下路径:/www/server/panel/data,在这个路径下新建一个名为userInfo.json的文件，如果之前有，那就删除重新建立</p>
 <p>4.在终端里执行以下代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -O update.sh http://download.bt.cn/install/update_pro.sh &amp;&amp; bash update.sh pro</span><br></pre></td></tr></table></figure></p>
-<p>5.重启宝塔面板</p>
+<p>5.重启宝塔面板<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bt restart</span><br></pre></td></tr></table></figure></p>
 <p>6.破解过程中出现意外情况的话，请通过SSH执行以下降级命令:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -O update.sh http://download.bt.cn/install/update.sh &amp;&amp; bash update.sh free</span><br></pre></td></tr></table></figure></p>
-<p>重启面板服务：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bt restart</span><br></pre></td></tr></table></figure></p>
 <h2 id="Aria2-一键安装管理脚本："><a href="#Aria2-一键安装管理脚本：" class="headerlink" title="Aria2 一键安装管理脚本："></a>Aria2 一键安装管理脚本：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/aria2.sh &amp;&amp; chmod +x aria2.sh &amp;&amp; bash aria2.sh</span><br></pre></td></tr></table></figure>
 <p>运行脚本<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./aria2.sh</span><br></pre></td></tr></table></figure></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">/etc/init.d/aria2 start                #启动</span><br><span class="line">/etc/init.d/aria2 stop                 #停止</span><br><span class="line">/etc/init.d/aria2 restart              #重启</span><br><span class="line">/etc/init.d/aria2 status               #查看状态</span><br><span class="line">/root/.aria2/aria2.conf                #配置文件：（配置文件包含中文注释，但是一些系统可能不支持显示中文）</span><br><span class="line">                                       #令牌密匙：随机生成（可以自己修改 7. 修改 配置文件）</span><br><span class="line">/usr/local/caddy/www/aria2/Download    #下载目录</span><br></pre></td></tr></table></figure>
