@@ -413,12 +413,14 @@ else                                       (*y  .05
 
       
         
-          
-            <link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><a id="more"></a>
-<h2 id="宝塔面板无法启动MongoDB的问题及解决办法"><a href="#宝塔面板无法启动MongoDB的问题及解决办法" class="headerlink" title="宝塔面板无法启动MongoDB的问题及解决办法"></a>宝塔面板无法启动MongoDB的问题及解决办法</h2><p>由于PyOne的搭建需要MongoDB的支持，MongoDB启动不了导致打不开首页（但后台能打开）的问题。其实早之前在入坑PyOne的时候就遇到了这个问题，当时也是找遍了宝塔官方论坛以及CSDN论坛，得到了好几种不同的方法，发现前几种方法都不奏效，最终解决了之后却并未留心将其记录下来，导致了此次再次走了弯路。</p>
-<p>解决办法：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">/etc/init.d/mongodb start       提示sudo command not found</span><br><span class="line">yum -y install sudo             安装</span><br><span class="line">/etc/init.d/mongodb start       再次输入，解决</span><br></pre></td></tr></table></figure>
-          
+          <p>摘要：<br>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/post/记一些曾踩过的坑.html" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
