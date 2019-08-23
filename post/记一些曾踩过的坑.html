@@ -157,7 +157,7 @@ else                                       (*y  .05
 <meta property="og:site_name" content="世界の某个角落">
 <meta property="og:description" content="摘要：">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-08-10T11:49:03.914Z">
+<meta property="og:updated_time" content="2019-08-23T00:27:55.095Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="记一些曾踩过的坑">
 <meta name="twitter:description" content="摘要：">
@@ -414,6 +414,9 @@ else                                       (*y  .05
 <h2 id="宝塔面板无法启动MongoDB的问题及解决办法"><a href="#宝塔面板无法启动MongoDB的问题及解决办法" class="headerlink" title="宝塔面板无法启动MongoDB的问题及解决办法"></a>宝塔面板无法启动MongoDB的问题及解决办法</h2><p>由于PyOne的搭建需要MongoDB的支持，MongoDB启动不了导致打不开首页（但后台能打开）的问题。其实早之前在入坑PyOne的时候就遇到了这个问题，当时也是找遍了宝塔官方论坛以及CSDN论坛，得到了好几种不同的方法，发现前几种方法都不奏效，最终解决了之后却并未留心将其记录下来，导致了此次再次走了弯路。</p>
 <p>解决办法：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">/etc/init.d/mongodb start       提示sudo command not found</span><br><span class="line">yum -y install sudo             安装</span><br><span class="line">/etc/init.d/mongodb start       再次输入，解决</span><br></pre></td></tr></table></figure>
+<h2 id="CAD2014打开出现闪退的问题及解决办法："><a href="#CAD2014打开出现闪退的问题及解决办法：" class="headerlink" title="CAD2014打开出现闪退的问题及解决办法："></a>CAD2014打开出现闪退的问题及解决办法：</h2><p>由于激活时卡顿并强制关闭进程导致再次打开CAD出现闪退，一般是许可文件出现了问题。</p>
+<p>解决办法：<br>打开以下路径：C:\ProgramData\FLEXnet<br>在该路径下找到：adskflex_00691b00_tsf.data 和 adskflex_00691b00_tsf.data_backup.001<br>将两个文件删除，再次打开CAD并激活。</p>
+
       
     </div>
     
@@ -620,7 +623,7 @@ else                                       (*y  .05
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#宝塔面板无法启动MongoDB的问题及解决办法"><span class="nav-number">1.</span> <span class="nav-text">宝塔面板无法启动MongoDB的问题及解决办法</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#宝塔面板无法启动MongoDB的问题及解决办法"><span class="nav-number">1.</span> <span class="nav-text">宝塔面板无法启动MongoDB的问题及解决办法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CAD2014打开出现闪退的问题及解决办法："><span class="nav-number">2.</span> <span class="nav-text">CAD2014打开出现闪退的问题及解决办法：</span></a></li></ol></div>
             
 
           </div>
