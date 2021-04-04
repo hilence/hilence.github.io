@@ -1,18 +1,30 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-  <meta http-equiv="content-type" content="text/html;charset=utf-8;"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="robots" content="all" />
-  <meta name="robots" content="index,follow"/>
-  <link rel="stylesheet" type="text/css" href="https://qzone.qq.com/gy/404/style/404style.css">
-</head>
-<body>
-  <script type="text/plain" src="http://www.qq.com/404/search_children.js"
-          charset="utf-8" homePageUrl="/"
-          homePageName="回到我的主页">
-  </script>
-  <script src="https://qzone.qq.com/gy/404/data.js" charset="utf-8"></script>
-  <script src="https://qzone.qq.com/gy/404/page.js" charset="utf-8"></script>
-</body>
+<!-- 一只404 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>404 Not Found</title><style type="text/css"></style></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>エラーページ</center>
+
+<script language='javascript' type='text/javascript'> 
+var secs =8; //倒计时的秒数 
+var URL ; 
+function Load(url){ 
+URL =url; 
+for(var i=secs;i>=0;i--) 
+{ 
+window.setTimeout('doUpdate(' + i + ')', (secs-i) * 1000); 
+} 
+} 
+function doUpdate(num) 
+{ 
+document.getElementById('ShowDiv').innerHTML = '将在'+num+'秒后自动跳转到 世界的某个角落' ; 
+if(num == 0) { window.location=URL; } 
+} 
+</script> 
+</head> 
+<body> 
+<div id="ShowDiv"></div> 
+<script language="javascript"> 
+Load("https://jlju.me"); //要跳转到的页面 
+</script> 
+</body> 
 </html>

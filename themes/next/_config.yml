@@ -133,7 +133,7 @@ scheme: Mist
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
   GitHub: https://github.com/hilence || github
-  E-Mail: https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=admin@hilence.me || envelope
+  E-Mail: https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=hilence@hotmail.com || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -161,7 +161,7 @@ links_layout: block
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
 #avatar: /images/avatar.gif
-avatar: https://ww3.sinaimg.cn/mw690/aeea6923jw8f840esprshj20es0dvjs9.jpg
+avatar: https://cdn.sinaimg.cn.52ecy.cn/mw690/aeea6923jw8f840esprshj20es0dvjs9.jpg
 
 # Table Of Contents in the Sidebar
 toc:    #是否显示文章目录，false不显示，true显示
